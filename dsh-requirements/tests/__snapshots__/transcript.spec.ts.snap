@@ -1,0 +1,115 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`logs requirement facts and routing availability before the next model request 1`] = `
+[
+  {
+    "content": [
+      {
+        "text": "{
+  "requirement": {
+    "id": "req_fixture",
+    "revision": 1,
+    "project": "DSH",
+    "title": "分发用户需求",
+    "description": "用户选择 Codex、OpenCode 或 Pi 执行需求。",
+    "priority": "P1",
+    "status": "draft",
+    "acceptanceCriteria": [
+      "保存分发目标与执行结果",
+      "执行完成后等待用户验收"
+    ],
+    "createdAt": "2026-11-04T12:00:00.000Z",
+    "updatedAt": "2026-11-04T12:00:00.000Z"
+  },
+  "dispatches": []
+}",
+        "type": "text",
+      },
+    ],
+    "role": "tool",
+    "source": {
+      "callId": "read",
+      "kind": "tool",
+    },
+  },
+  {
+    "content": [
+      {
+        "text": "{
+  "id": "req_fixture",
+  "revision": 2,
+  "project": "DSH",
+  "title": "分发用户需求",
+  "description": "用户选择 Codex、OpenCode 或 Pi 执行需求。",
+  "priority": "P1",
+  "status": "ready",
+  "acceptanceCriteria": [
+    "保存分发目标与执行结果",
+    "执行完成后等待用户验收"
+  ],
+  "createdAt": "2026-11-04T12:00:00.000Z",
+  "updatedAt": "2026-11-04T12:00:00.000Z"
+}",
+        "type": "text",
+      },
+    ],
+    "role": "tool",
+    "source": {
+      "callId": "ready",
+      "kind": "tool",
+    },
+  },
+  {
+    "content": [
+      {
+        "text": "{
+  "agents": [
+    {
+      "target": "codex",
+      "provider": "codex",
+      "resumable": false,
+      "available": false
+    },
+    {
+      "target": "codex-session",
+      "provider": "requirements-codex",
+      "resumable": true,
+      "available": true
+    },
+    {
+      "target": "opencode",
+      "provider": "opencode",
+      "resumable": false,
+      "available": false
+    },
+    {
+      "target": "opencode-session",
+      "provider": "requirements-opencode",
+      "resumable": true,
+      "available": true
+    },
+    {
+      "target": "pi",
+      "provider": "requirements-pi",
+      "resumable": false,
+      "available": true
+    },
+    {
+      "target": "pi-session",
+      "provider": "requirements-pi-session",
+      "resumable": true,
+      "available": true
+    }
+  ]
+}",
+        "type": "text",
+      },
+    ],
+    "role": "tool",
+    "source": {
+      "callId": "agents",
+      "kind": "tool",
+    },
+  },
+]
+`;

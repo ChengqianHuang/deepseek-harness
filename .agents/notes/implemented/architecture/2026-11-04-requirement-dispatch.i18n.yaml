@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for 2026-11-04-requirement-dispatch.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/architecture/2026-11-04-requirement-dispatch.md
+/agent-note-versioned-requirements-dispatched-through-dsh-providers:
+  en: 1f29446989c6d9da
+  zh: df255f9da1d0ec61
+/agent-note-versioned-requirements-dispatched-through-dsh-providers/problem:
+  en: f0cd65e983230bba
+  zh: 6da9f3a7a17a96fe
+/agent-note-versioned-requirements-dispatched-through-dsh-providers/decision:
+  en: 4b9be46b8f5e22d4
+  zh: daa1954e3ff3d5e0
+/agent-note-versioned-requirements-dispatched-through-dsh-providers/alternatives-considered:
+  en: 97178ebffaaf633f
+  zh: 410dc5a7303fe8fb
+/agent-note-versioned-requirements-dispatched-through-dsh-providers/consequences:
+  en: 9b89291c619a9905
+  zh: f10bebb953d2bffd

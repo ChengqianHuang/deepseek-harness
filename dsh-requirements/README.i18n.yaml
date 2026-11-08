@@ -1,0 +1,46 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write dsh-requirements/README.md
+/:
+  en: 2be1faeb31ee7059
+  zh: fc4048f6ac62e3f9
+/deepseek-ai-dsh-requirements:
+  en: bf06c692c6baeeb8
+  zh: 38b797a125e3fb6f
+/deepseek-ai-dsh-requirements/summary:
+  en: 8784c7865ebf8351
+  zh: 130a32b4e57674f4
+/deepseek-ai-dsh-requirements/table-of-contents:
+  en: 85ae920690e09162
+  zh: 85ae920690e09162
+/deepseek-ai-dsh-requirements/use-this-package:
+  en: bbff250eba0f1b89
+  zh: bbff250eba0f1b89
+/deepseek-ai-dsh-requirements/use-this-package/development-in-this-checkout:
+  en: 46c38ff6d53d6caf
+  zh: 911501a596cb441a
+/deepseek-ai-dsh-requirements/use-this-package/add-to-a-profile:
+  en: c6ed17430f78cdba
+  zh: 771b73c226337085
+/deepseek-ai-dsh-requirements/use-this-package/user-workflow:
+  en: 5a61dc43f31ca640
+  zh: d6e781852677b9d1
+/deepseek-ai-dsh-requirements/use-this-package/configuration:
+  en: 87cd1a627e86ec1f
+  zh: 544c2f657b7d5d84
+/deepseek-ai-dsh-requirements/understand-the-implementation:
+  en: b2598618aa3d291b
+  zh: be8cb8e5163f91d3
+/deepseek-ai-dsh-requirements/further-exploration:
+  en: 6a78e9fc6a0df663
+  zh: 1db2ce36c3cf973d
+/deepseek-ai-dsh-requirements/model-experience:
+  en: b370b9fba40d0ee4
+  zh: 12ecf8c55ba99864
+/deepseek-ai-dsh-requirements/known-limitations-and-deferred-work:
+  en: b4e1c977d3fa6dac
+  zh: 16c87ec1c591ba06
+/deepseek-ai-dsh-requirements/known-limitations-and-deferred-work/dev-note:
+  en: 4b21d481cf0892ce
+  zh: 49729fb34002439e

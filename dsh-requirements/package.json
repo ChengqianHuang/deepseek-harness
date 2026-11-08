@@ -1,0 +1,54 @@
+{
+  "name": "@deepseek-ai/dsh-requirements",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Requirements management tools and local SQLite storage for DSH",
+  "type": "module",
+  "main": "lib/index.mjs",
+  "files": [
+    "lib",
+    "cordis.patch.yml"
+  ],
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "scripts": {
+    "build": "tsdown",
+    "test": "vitest run --config vitest.config.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*",
+    "@deepseek-ai/dsh-brand": "*",
+    "@deepseek-ai/dsh-agent": "*",
+    "@deepseek-ai/dsh-home-paths": "*",
+    "@deepseek-ai/dsh-session": "*",
+    "@deepseek-ai/dsh-subagent": "*",
+    "@deepseek-ai/dsh-subprocess": "*",
+    "@deepseek-ai/dsh-tools": "*",
+    "@deepseek-ai/dsh-working-directory": "*",
+    "@deepseek-ai/schemastery": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsdown": "^0.22.2",
+    "typescript": "^6.0.3",
+    "vite-tsconfig-paths": "^6.0.0",
+    "vitest": "^4.1.8",
+    "@deepseek-ai/cordis": "link:../vendor/cordis",
+    "@deepseek-ai/schemastery": "link:../vendor/schemastery",
+    "@deepseek-ai/dsh-brand": "link:../packages/util/brand",
+    "@deepseek-ai/dsh-agent": "link:../packages/core/agent",
+    "@deepseek-ai/dsh-home-paths": "link:../packages/util/home-paths",
+    "@deepseek-ai/dsh-session": "link:../packages/core/session",
+    "@deepseek-ai/dsh-subagent": "link:../packages/subagent/subagent",
+    "@deepseek-ai/dsh-subprocess": "link:../packages/subprocess/subprocess",
+    "@deepseek-ai/dsh-tools": "link:../packages/core/tools",
+    "@deepseek-ai/dsh-working-directory": "link:../packages/session/working-directory"
+  }
+}

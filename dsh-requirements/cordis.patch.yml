@@ -1,0 +1,3 @@
+- insert:
+    - id: requirements
+      name: '@deepseek-ai/dsh-requirements'

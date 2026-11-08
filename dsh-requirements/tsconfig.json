@@ -1,0 +1,17 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": { "noEmit": true, "rootDir": "src", "outDir": "lib/types" },
+  "include": ["src"],
+  "references": [
+    { "path": "../vendor/cordis" },
+    { "path": "../vendor/schemastery" },
+    { "path": "../packages/core/tools" },
+    { "path": "../packages/core/agent" },
+    { "path": "../packages/core/session" },
+    { "path": "../packages/subagent/subagent" },
+    { "path": "../packages/subprocess/subprocess" },
+    { "path": "../packages/session/working-directory" },
+    { "path": "../packages/util/brand" },
+    { "path": "../packages/util/home-paths" }
+  ]
+}

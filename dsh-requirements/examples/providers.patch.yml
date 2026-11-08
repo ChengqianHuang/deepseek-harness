@@ -1,0 +1,13 @@
+# Install the Codex bundle and make dsh-subagent-acp available to the profile first.
+- insert:
+    - id: requirements-codex
+      name: '@deepseek-ai/dsh-subagent-codex'
+      config:
+        providerName: codex
+    - id: requirements-opencode
+      name: '@deepseek-ai/dsh-subagent-acp'
+      config:
+        providerName: opencode
+        command: opencode
+        args: [acp]
+        permission: reject
